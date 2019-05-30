@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Cute+Font|Dancing+Script|Josefin+Sans|Lobster|Merriweather|Noto+Sans+KR|Oswald|Pacifico|Roboto+Condensed|Roboto+Slab|Russo+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+html{
+  width: 100%;
+  background-color: #101010;
+  padding: 0;
+  margin: 0;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+button{
+    outline: none;
+}
+#menu-nav-vertical{
+  width: 200px;
+  background-color: black;
+  height: 1920px;
+  position: fixed;
+  left: 90%;
+  z-index: 1;
+  display: none;
+}
+#menu-nav-vertical ul a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2em;
+  position: relative;
+  left: 10%;
+  top: 300px;
+}
+.menu-btn img{
+  position: absolute;
+  left: 95%;
+  top: 30px;
+}
+.menu-btn img:hover{
+  cursor: pointer;
+}
+#menu-nav-vertical img:first-of-type{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+#menu-nav-vertical img:last-of-type{
+  position: relative;
+  top: 700px;
+  left: 30%;
+  width: 80px;
+}
+#topImage{
+  margin: 0;
+  padding: 0;
+}
+#topImage #nameBackground img{
+    width: 100%;
+    height: 1100px;
+}
+#topImage .name img{
+  top:40px;
+  left: 3%;
+  position: absolute;
+  color: gray;
+}
+#topImage .name img:hover{
+cursor: pointer;
+}
+#topImage button{
+  position: absolute;
+  width: 400px;
+  height: 140px;
+  left: 40%;
+  top: 400px;
+  background-color: transparent;
+  border-radius: 100px;
+  border:4px solid #fff;
+}#topImage .nameText a{
+  left:10%;
+  top:40px;
+  font-size: 3em;
+  text-decoration: none;
+  color: orange;
+  position: absolute;
+  font-family: Pacifico;
+}
+#topImage button a {
+  position: absolute;
+  left: 35%;
+  top:10px;
+  color: white;
+  font-size: 6em;
+  font-family: Cute Font;
+  text-decoration: none;
+}
+#topImage h1{
+  left: 4%;
+  top: 50px;
+  position: absolute;
+  color: orange;
+}
+#topInfo{
+  width: 100%;
+  height: 2000px;
+  background-color: #30336b;
+  text-align: center;
+    border-left: 1920px solid transparent;
+  border-bottom: 240px solid #101010;
+}
+#topInfo h1{
+  font-size:3em;
+  position: absolute;
+  left: 40%;
+  top: 1380px;
+  color: #006266;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+#topInfo h3{
+  font-size:2em;
+  position: absolute;
+  left: 10%;
+  text-align: center;
+  top: 1580px;
+  color: #009432;
+  font-family: Oswald,Josefin Sans;
+}
+#topInfo h1:nth-of-type(2){
+  font-size:3em;
+  position: absolute;
+  left: 44%;
+  top: 1860px;
+  color: #006266;
+  font-family: Oswald;
+}
+#topInfo h3:nth-of-type(2){
+  font-size:2em;
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  top: 1960px;
+  color: #009432;
+  font-family: Oswald,Josefin Sans;
+}
+#topInfo h1:nth-of-type(3){
+  font-size:3em;
+  position: absolute;
+  left: 45%;
+  top: 2220px;
+  color: #006266;
+  font-family: Oswald;
+}
+#topInfo h3:nth-of-type(3){
+  font-size:2em;
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  top: 2320px;
+  color: #009432;
+  font-family: Oswald,Josefin Sans;
+}
+#topInfo h1:nth-of-type(4){
+  font-size:3em;
+  position: absolute;
+  left: 45%;
+  top: 2720px;
+  color: #006266;
+  font-family: Oswald;
+}
+#topInfo h3:nth-of-type(4){
+  font-size:2em;
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  top: 2820px;
+  color: #009432;
+  font-family: Oswald,Josefin Sans;
+}
+#topBtn{
+  position: fixed;
+  z-index: 1;
+  top:750px;
+  left: 5%;
+}
+#topBtn button{
+  width: 150px;
+  height: 150px;
+  border: 2px #fff solid;
+  border-radius: 100px;
+  color: #aaaaff;
+  font-size: 2em;
+  font-family: Lobster;
+  display: none;
+}
+#footer{
+  width: 100%;
+  height: 500px;
+  background-color: #101010;
+}
+#footer h1{
+  color: aliceblue;
+  font-size: 4em;
+  text-align: center;
+}
+#footer h3{
+  color: #aaaaff;
+  font-size: 2em;
+  text-align: center;
+}
+#menubar{
+  width: 100%;
+  height: 100px;
+  background-color: #101010;
+  text-align: center;
+}
+#menubar li {
+  position: relative;
+  display: inline-block;
+  color: aliceblue;
+  font-size: 3em;
+  top:10px;
+  padding-left: 30px;
+}
+#menubar li a {
+  color: aliceblue;
+  text-decoration-line: none;
+}
+@media (max-width: 400px) {
+#topImage .nameText {
+    display: none;
+  }
+}
+@media (max-width:1600px) {
+  #topInfo{
+    height: 2200px;
+    margin-right: 100px;
+  }
+  #topImage #nameBackground img{
+    display: none;
+  }
+  #topImage{
+    height: 200px;
+    background-color: #0c2461;
+  }
+  #topImage button{
+    top: 50px;
+    width: 200px;
+    height: 100px;
+    font-size: 0.8em;
+    border-radius: 0px;
+    left: 30%;
+  }
+  #topImage button a{
+    left: 20%;
+    top: 0px;
+  }
+  #topInfo h1{
+  top: 300px;
+  }
+  #topInfo h3{
+  top: 500px;
+  }
+  #topInfo h1:nth-of-type(2){
+  top: 700px;
+  }
+  #topInfo h3:nth-of-type(2){
+  top:900px;
+  }
+  #topInfo h1:nth-of-type(3){
+  top:1100px;
+  }
+  #topInfo h3:nth-of-type(3){
+  top:1300px;
+  }
+  #topInfo h1:nth-of-type(4){
+  top:1500px;
+  }
+  #topInfo h3:nth-of-type(4){
+  top:1700px;
+  }
+}
